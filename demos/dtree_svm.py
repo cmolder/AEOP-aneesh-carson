@@ -17,7 +17,7 @@ print(iris.data[107], iris.target_names[iris.target[107]], iris.target_names[pre
 
 # Loop through SVM
 print('SVM')
-print('i   data        label       prediction')
+print('i  | data       | label     |  prediction')
 svm_correct = 0
 for i in range(len(iris.data)):
     pred = my_svm.predict([iris.data[i]])
